@@ -1,0 +1,56 @@
+h1 {
+
+  position: relative;
+  left: 110px;
+}
+
+
+.col {
+display: inline-block;;
+width: 100px;
+color: blue;
+list-style-type: none;
+padding: 0;
+margin: 0;
+float: left;
+}
+
+
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  color:red;
+  background-color: gray;
+  font-size: 110px;
+  line-height: 80px;
+  text-align: center;
+  border: solid;
+  border-color: black;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.marked {
+  width: 100px;
+  height: 100px;
+  color:red;
+  font-size: 110px;
+  line-height: 80px;
+  text-align: center;
+  border: solid;
+  border-color: black;
+  background-color: white;
+
+}
+
+content {
+  font-size: 100px;
+  display: block;
+  position: absolute;
+  top: 400px;
+
+}
